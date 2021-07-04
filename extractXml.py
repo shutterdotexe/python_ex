@@ -12,7 +12,8 @@ lst = tree.findall('.//count')
 #checking for how many counts I've got
 print('Count: ', len(lst))
 total = list()
-counting = 0
+#counting = 0
 for item in lst:
     total.append(int(item.text))
 print(sum(total))
+#just some modifications to see the behaviour of git  
