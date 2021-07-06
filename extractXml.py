@@ -10,7 +10,7 @@ connection.close()
 tree = ET.fromstring(xmlFile)
 lst = tree.findall('.//count')
 #checking for how many counts I've got
-print('Count: ', len(lst))
+print('Count result: ', len(lst))
 total = list()
 #counting = 0
 for item in lst:
